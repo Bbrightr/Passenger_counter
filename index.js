@@ -14,4 +14,8 @@ function save() {
     console.log(count)
 }
 
+function clearState(){
+    
+}
+
 
