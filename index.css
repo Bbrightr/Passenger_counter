@@ -36,3 +36,7 @@ button {
     background: darkgreen;
 }
 
+#clearset-btn {
+    color: black;
+    border: 1.5px solid black;
+}
