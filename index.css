@@ -52,9 +52,17 @@ button {
     color: white;
 }
 
+#increment-btn:hover {
+    background: #0a4ba5;
+}
+
 #save-btn {
     margin-top: 12px;
     background-color: #487B41
+}
+
+#save-btn:hover {
+    background-color: #324a2e
 }
 
 #clearset-btn {
@@ -62,4 +70,9 @@ button {
     color: black;
     border: 1px solid black;
     margin-top: 100px;
+}
+
+#clearset-btn:hover {
+    background:rgb(223, 223, 223);
+
 }

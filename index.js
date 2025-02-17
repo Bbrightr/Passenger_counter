@@ -17,7 +17,7 @@ function save() {
 }
 
 function clearState(){
-    saveEl.innerText += 0
+    saveEl.innerText = 0
     saveEl.innerText = "Previous entires: "
 
 }
