@@ -12,14 +12,15 @@ function increment() {
 
 function save() {
     let newState = count + " - "
-    saveEl.innerText += newState
+    saveEl.textContent += newState
     count = 0
-    countEl.innerText = 0
+    countEl.textContent = 0
 }
 
 function clearState(){
-    countEl.innerText = 0
-    saveEl.innerText = 0
+    // countEl.innerText = 0
+    saveEl.innerText += 0
+    saveEl.innerText = "Previous entires: "
 
 }
 
