@@ -1,7 +1,7 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("https://images.unsplash.com/photo-1618753032504-1829cac5401e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNpdHklMjBiaXJkc3xlbnwwfHwwfHx8MA%3D%3D");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Inter", serif;
     font-weight: bold;
     text-align: center;
 }
@@ -9,6 +9,7 @@ body {
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    letter-spacing: -1;
 }
 
 h2 {
@@ -23,7 +24,7 @@ h2 {
     border: 1px solid black;
     border-radius: 24px;
     padding: 24px;
-    background-color: rgba(251, 251, 251, 0.79);
+    background-color: rgba(251, 251, 251, 0.89);
     border: 1px solid rgb(192, 191, 188);
     box-shadow: 0 9px 18px rgb(187, 187, 187);
 
@@ -37,30 +38,28 @@ button {
     border: none;
     margin: 0 auto;
     display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     color: white;
-    font-weight: bold;
-    width: 200px;
+    font-weight: 500;
+    width: 300px;
     margin-bottom: 5px;
     border-radius: 8px;
 }
 
 #increment-btn {
-    background: rgb(0, 226, 0);
-    color: black;
+    background: #005ee1;
+    color: white;
 }
 
 #save-btn {
-    background:white;
-    color: black;
-    border: 1px solid black;
     margin-top: 12px;
+    background-color: #487B41
 }
 
 #clearset-btn {
+    background:white;
+    color: black;
+    border: 1px solid black;
     margin-top: 100px;
-    background-color: red;
-    /* color: black; */
-    /* border: 1.5px solid black; */
 }

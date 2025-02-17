@@ -1,4 +1,3 @@
-// 1. Grab the save-el paragrah and store it in a variable called saveEl
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let count = 0
@@ -18,7 +17,6 @@ function save() {
 }
 
 function clearState(){
-    // countEl.innerText = 0
     saveEl.innerText += 0
     saveEl.innerText = "Previous entires: "
 
